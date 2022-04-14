@@ -1975,7 +1975,7 @@ Accounts.onCreateUser(function (options, user) {
         (user.online = false),
         (user.creadoPor = "Facebook"),
         (user.baneado = true),
-        (user.picture = user.services.facebook.picture),
+        (user.picture = user.services.facebook.picture.data.url),
         (user.descuentoproxy = 0),
         (user.descuentovpn = 0));
 
